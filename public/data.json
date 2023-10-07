@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "card_name": "Birthday Cake special Delight",
+        "image": "https://i.ibb.co/tJYDN92/card2.png",
+        "price": "$600.99",
+        "short_description": "A scrumptious delight that captures the essence of celebration in every bite, making your birthday extra special!",
+        "auth_name": "Jane Smith",
+        "auth_photo": "https://i.ibb.co/JkTBrJD/image1.jpg"
+      },
+      {
+        "id":2,
+        "card_name": "Luscious Lemon Berry Bliss Cake",
+        "image": "https://i.ibb.co/ZK9PXNZ/card8.webp",
+        "price": "$656.99",
+        "short_description": "This birthday cake is a joyful masterpiece, created with love and sprinkled with happiness to make your special day even sweeter!",
+        "auth_name": "Jane Smith",
+        "auth_photo": "https://i.ibb.co/M6RLk0Z/h5.jpg"
+      },
+      {
+        "id": 3,
+        "card_name": "Rainbow Sprinkle Surprise Cake",
+        "image": "https://i.ibb.co/my1p2Nk/card3.png",
+        "price": "$636.99",
+        "short_description": "Indulge in the pure delight of this birthday cake, a sweet symbol of another year filled with joy and cherished moments.!",
+        "auth_name": "Jane Smith",
+        "auth_photo": "https://i.ibb.co/xgwfsxC/h6.jpg"
+      },
+      {
+        "id": 4,
+        "card_name": "Double Chocolate  Fantasy Cake",
+        "image": "https://i.ibb.co/NYbTgPf/card9.jpg",
+        "price": "$600.99",
+        "short_description": "This birthday cake is a delectable symphony of flavors, a sweet testament to the joy of growing older, and a delightful way to make memories ",
+        "auth_name": "Jane Smith",
+        "auth_photo": "https://i.ibb.co/MhccV9N/h7.jpg"
+      },
+      {
+        "id": 5,
+        "card_name": "Sweet Vanilla Dreamscape Cake",
+        "image": "https://i.ibb.co/9HLN1wc/card5.webp",
+        "price": "$622.99",
+        "short_description": "A slice of pure joy and a taste of birthday magic, this cake is your sweet ticket to celebrating another year of love and laughter  way to make memories",
+        "auth_name": "Jane Smith",
+        "auth_photo": "https://i.ibb.co/8g6wSg4/image5.jpg"
+      },
+      {
+        "id": 6,
+        "card_name": "Caramel Swirl Celebration Cake",
+        "image": "https://i.ibb.co/1J0C5v6/card4.jpg",
+        "price": "$678.99",
+        "short_description": "This birthday cake is a delectable symphony of flavors, a sweet testament to the joy of growing older, and a delightful way to make memories !",
+        "auth_name": "Jane Smith",
+        "auth_photo": "https://i.ibb.co/kDrkP1m/image6.jpg"
+      }
+    ]
+      
+    
