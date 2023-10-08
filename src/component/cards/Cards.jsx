@@ -14,7 +14,7 @@ const Cards = ({ card }) => {
 
           
 
-                    <div className="bg-[#FFEDED] card card-compact  shadow-xl ">
+                    <div className="bg-[#FFEDED] h-[66vh] card card-compact  shadow-xl ">
                         <figure><img src={image} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title text-slate-400">{card_name}</h2>

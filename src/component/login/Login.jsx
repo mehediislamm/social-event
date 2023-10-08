@@ -42,8 +42,8 @@ const Login = () => {
 
     return (
             
-            <div>
-                <h2 className="text-3xl text-center">Please Login</h2>
+            <div className="bg-[#e5e9ee] rounded-xl">
+                <h2 className="text-3xl text-center pt-5 font-bold text-yellow-800 ">Please Login</h2>
                 <form onSubmit={handleLogin} className="md:w-3/4 lg:w-1/2 mx-auto mb-3">
                     <div className="form-control">
                         <label className="label">
@@ -65,7 +65,7 @@ const Login = () => {
                     </div>
                 </form>
                 <div className="divider mx-auto w-1/2">OR</div>
-               <div className="flex gap-5 justify-center">
+               <div className="flex mb-5 gap-5 justify-center">
                 <button className="btn ">
                     <FaGithub></FaGithub>
                     GITHUB</button>
@@ -74,7 +74,7 @@ const Login = () => {
                     GOOGLE</button>
                </div>
 
-                <p className="text-xl text-center mb-5">Do not have an account <Link to={'/register'} className=" text-blue-600 text-xl font-bold">Register</Link></p>
+                <p className="text-xl text-center mb-5 pb-5">Do not have an account <Link to={'/register'} className=" text-blue-600 text-xl font-bold">Register</Link></p>
             </div>
         
     );

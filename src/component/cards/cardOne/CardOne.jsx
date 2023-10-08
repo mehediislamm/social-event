@@ -9,14 +9,14 @@ const CardOne = ({ card }) => {
             <div className="card-body">
                 <h2 className="card-title text-2xl font-bold mb-5 text-slate-400 ">{card_name}</h2>
                 <p className='mb-10'>{details}</p>
-                <div className=" mb-20 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 ">
-                    <h1 className='text-2xl font-bold text-slate-400' >
+                <div className=" mx-auto mb-20 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 ">
+                    <h1 className='text-2xl font-bold text-slate-400 mb-4' >
                         
                         
                         {price}</h1>
 
-                            <h1 className='text-2xl flex items-center gap-5'>
-                               <BsTelephoneFill></BsTelephoneFill>
+                            <h1 className='lg:text-2xl mb-2 font-bold flex items-center gap-5'>
+                               <BsTelephoneFill className='text-4xl'></BsTelephoneFill>
                                 Call For Order: 09613-800800</h1>
                         
                     <div className='lg:mx-12 md:mx-12' ><button className="btn btn-primary">buy now</button></div>

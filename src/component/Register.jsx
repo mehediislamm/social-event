@@ -26,8 +26,8 @@ const Register = () => {
             })
     }
     return (
-        <div>
-            <h2 className="text-3xl text-center">Please Register</h2>
+        <div className="bg-[#e5e9ee] rounded-xl">
+            <h2 className="text-3xl text-center pt-5 font-bold text-yellow-600">Please Register</h2>
             <form onSubmit={handleRegister} className="md:w-3/4 lg:w-1/2 mx-auto mb-3">
                 <div className="form-control">
                     <label className="label">
@@ -60,7 +60,7 @@ const Register = () => {
                     <button className="btn btn-primary">Register</button>
                 </div>
             </form>
-            <p className="text-xl text-center">Already account <Link to={'/login'} className=" text-blue-600 text-xl font-bold">Login</Link></p>
+            <p className="text-xl text-center pt-3 pb-5">Already account <Link to={'/login'} className=" text-blue-600 text-xl font-bold">Login</Link></p>
         </div>
     );
 };
