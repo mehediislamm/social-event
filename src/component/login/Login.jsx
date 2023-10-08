@@ -1,13 +1,27 @@
+/* eslint-disable no-undef */
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider";
 
 
+
 const Login = () => {
-    const {signIn} = useContext(AuthContext);
+    const {signIn, signInGoogle} = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
+    const handleGoogle =e =>{
+        e.preventDefault();
+
+     
+        // signInGoogle(auth, Provider)
+        // .then(result=>{
+        //     console.log(result.user);
+        // })
+        // .catch(error=>{
+        //     console.error(error);
+        // })
+    }
 
     const handleLogin = e =>{
         e.preventDefault();
@@ -50,12 +64,12 @@ const Login = () => {
                         <button className="btn btn-primary">Login</button>
                     </div>
                 </form>
-               <p className="text-center mb-5"> <hr /> or <hr /></p> 
-               <div className="flex gap-5 mb-5 mx-32 md:mx-[278px] lg:mx-[520px]">
+                <div className="divider mx-auto w-1/2">OR</div>
+               <div className="flex gap-5 justify-center">
                 <button className="btn ">
                     <FaGithub></FaGithub>
                     GITHUB</button>
-                <button className="btn ">
+                <button onClick={handleGoogle} className="btn ">
                 <FaGoogle></FaGoogle>
                     GOOGLE</button>
                </div>

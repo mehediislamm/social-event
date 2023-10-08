@@ -13,7 +13,7 @@ const Card = () => {
 
    
     useEffect(()=>{
-                const findCard = details?.find ( card =>card.id = id)
+                const findCard = details?.find ( card =>card.id == id)
                 setCard(findCard)
     },[id,details ])
     console.log(card);

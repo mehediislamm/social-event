@@ -5,6 +5,7 @@ import Login from "../component/login/Login";
 import Register from "../component/Register";
 import Card from "../component/cards/card";
 import PrivateRoute from "./PrivateRoute";
+import Service from "../component/service/Service";
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
                 element:<PrivateRoute><Card></Card></PrivateRoute>,
                 loader:()=>fetch('/data.json')
                 
+            },
+            {
+                path:'/servic',
+                element:<Service></Service>
             },
             {
                 path:'/login',
