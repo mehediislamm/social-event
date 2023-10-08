@@ -5,8 +5,9 @@
         "image": "https://i.ibb.co/tJYDN92/card2.png",
         "price": "$600.99",
         "short_description": "A scrumptious delight that captures the essence of celebration in every bite, making your birthday extra special!",
-        "auth_name": "Jane Smith",
-        "auth_photo": "https://i.ibb.co/JkTBrJD/image1.jpg"
+        "details": "Indulge in the sweetest delight for your special day! Our birthday cakes are more than just desserts; they're edible works of art designed to make your celebration extraordinary. Whether you're turning six or celebrating a milestone birthday, our cakes are crafted with love and creativity. From classic flavors like chocolate and vanilla to exotic creations, we offer a wide range of options to tantalize your taste buds. Our expert bakers use the finest ingredients to create cakes that are not only visually stunning but also incredibly delicious. Make your birthday sweeter and more memorable with one of our signature cakes. Every slice is a piece of happiness!"
+
+        
       },
       {
         "id":2,
@@ -14,8 +15,9 @@
         "image": "https://i.ibb.co/ZK9PXNZ/card8.webp",
         "price": "$656.99",
         "short_description": "This birthday cake is a joyful masterpiece, created with love and sprinkled with happiness to make your special day even sweeter!",
-        "auth_name": "Jane Smith",
-        "auth_photo": "https://i.ibb.co/M6RLk0Z/h5.jpg"
+        "details": "Elevate your birthday celebration with the perfect cake! Our birthday cakes are masterpieces crafted with precision and love. Whether you're celebrating your 6th birthday or a milestone occasion, our cakes are designed to be the centerpiece of your festivities. From classic flavors like rich chocolate and creamy vanilla to unique and exotic creations, we have a wide selection to cater to every palate. Our talented bakers use only the finest ingredients to ensure each bite is a burst of flavor and joy. Make a wish, blow out the candles, and savor the sweet moments with a slice of our delectable birthday cake. It's not just a cake; it's a memory in the making."
+
+        
       },
       {
         "id": 3,
@@ -23,8 +25,9 @@
         "image": "https://i.ibb.co/my1p2Nk/card3.png",
         "price": "$636.99",
         "short_description": "Indulge in the pure delight of this birthday cake, a sweet symbol of another year filled with joy and cherished moments.!",
-        "auth_name": "Jane Smith",
-        "auth_photo": "https://i.ibb.co/xgwfsxC/h6.jpg"
+        "details": "Experience pure delight on your special day with our exquisite birthday cakes. Each cake is a masterpiece, handcrafted with passion and creativity to elevate your celebration. Whether it's a joyful 6th birthday or a significant milestone, our cakes are designed to be more than just dessert; they're a piece of edible art. Choose from a delightful array of flavors, from luscious chocolate to heavenly vanilla, all made with the finest ingredients to ensure a burst of flavor in every bite. Let your taste buds dance and your heart sing as you savor a slice of our birthday cake, making your celebration a truly memorable and scrumptious experience."
+
+        
       },
       {
         "id": 4,
@@ -32,8 +35,9 @@
         "image": "https://i.ibb.co/NYbTgPf/card9.jpg",
         "price": "$600.99",
         "short_description": "This birthday cake is a delectable symphony of flavors, a sweet testament to the joy of growing older, and a delightful way to make memories ",
-        "auth_name": "Jane Smith",
-        "auth_photo": "https://i.ibb.co/MhccV9N/h7.jpg"
+        "details": "Embrace the sweetness of life on your special day with our exquisite birthday cakes. Each cake is a labor of love, handcrafted to perfection to elevate your celebration to a whole new level. Whether it's a joyous 6th birthday or a significant milestone, our cakes aren't just desserts; they're edible works of art. Choose from an array of delightful flavors, from the decadence of chocolate to the heavenly essence of vanilla, all made with the finest ingredients to ensure that every bite is a burst of flavor and happiness. Let our cakes be the centerpiece of your celebration, and with each slice, create sweet memories that will linger on your taste buds and in your heart."
+
+        
       },
       {
         "id": 5,
@@ -41,8 +45,9 @@
         "image": "https://i.ibb.co/9HLN1wc/card5.webp",
         "price": "$622.99",
         "short_description": "A slice of pure joy and a taste of birthday magic, this cake is your sweet ticket to celebrating another year of love and laughter  way to make memories",
-        "auth_name": "Jane Smith",
-        "auth_photo": "https://i.ibb.co/8g6wSg4/image5.jpg"
+        "details": "Unwrap the gift of indulgence on your special day with our delectable birthday cakes. Each cake is a symphony of flavors, meticulously crafted to transform your celebration into a gastronomic delight. Whether you're commemorating a joyous 6th birthday or a significant milestone, our cakes are more than just desserts; they're an enchanting fusion of taste and artistry. From the rich decadence of chocolate to the ethereal lightness of vanilla, our cakes are made using the finest ingredients, ensuring that every bite is an explosion of sweetness and bliss. Elevate your celebration with a slice of our exquisite cake and create memories that will linger long after the candles are blown out."
+
+        
       },
       {
         "id": 6,
@@ -50,8 +55,9 @@
         "image": "https://i.ibb.co/1J0C5v6/card4.jpg",
         "price": "$678.99",
         "short_description": "This birthday cake is a delectable symphony of flavors, a sweet testament to the joy of growing older, and a delightful way to make memories !",
-        "auth_name": "Jane Smith",
-        "auth_photo": "https://i.ibb.co/kDrkP1m/image6.jpg"
+        "details": "Step into a world of culinary enchantment on your special day with our birthday cakes. Each cake is a masterpiece, meticulously crafted to transform your celebration into a mouthwatering experience. Whether you're marking a joyous 6th birthday or a significant milestone, our cakes aren't just confections; they're a symphony of flavors and artistry. From the velvety embrace of chocolate to the delicate allure of vanilla, our cakes are made with only the finest ingredients, ensuring that every bite is a harmonious blend of sweetness and satisfaction. Make your celebration extraordinary with a slice of our delectable cake, where every crumb is a note in the song of your memorable day."
+        
+        
       }
     ]
       

@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD3aXmU3YwkDw9XBLwRjJhkieBJRq7m3XE",
-  authDomain: "social-event-birthday-party.firebaseapp.com",
-  projectId: "social-event-birthday-party",
-  storageBucket: "social-event-birthday-party.appspot.com",
-  messagingSenderId: "572106063631",
-  appId: "1:572106063631:web:d8d56b84127da9567d487a"
+  apiKey: import.meta.env.VITE_APIKEY ,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN ,
+  projectId: import.meta.env.VITE_PROJECTID ,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET ,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID ,
+  appId: import.meta.env.VITE_APPID ,
 };
 
 // Initialize Firebase

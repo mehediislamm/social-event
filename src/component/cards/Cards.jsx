@@ -1,9 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 
 const Cards = ({ card }) => {
     console.log(card);
-    const { image, card_name, price, short_description } = card;
+    const { image, card_name,  short_description,id } = card;
 
     //    console.log(cards);
     return (
@@ -11,7 +12,7 @@ const Cards = ({ card }) => {
             
             <div className="">
 
-                <NavLink>
+          
 
                     <div className="bg-[#FFEDED] card card-compact  shadow-xl ">
                         <figure><img src={image} alt="Shoes" /></figure>
@@ -19,12 +20,12 @@ const Cards = ({ card }) => {
                             <h2 className="card-title text-slate-400">{card_name}</h2>
                             <p>{short_description}</p>
                             <div className="card-actions justify-center">
-                                <button className="btn btn-primary">view details</button>
+                               <Link to={`/card/${id}`} > <button className="btn btn-primary">view details</button></Link>
                             </div>
                         </div>
                     </div>
 
-                </NavLink>
+               
             </div>
         </div>
     );

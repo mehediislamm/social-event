@@ -1,8 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGithub, FaGoogle } from 'react-icons/fa';
+import { useContext } from "react";
+import { AuthContext } from "../../AuthProvider";
 
 
 const Login = () => {
+    const {signIn} = useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+
     const handleLogin = e =>{
         e.preventDefault();
         console.log(e.currentTarget);
@@ -10,6 +16,14 @@ const Login = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(email, password);
+        signIn (email,password)
+        .then(result=>{
+            console.log(result.user);
+            navigate(location?.state ? location.state:'/');
+        })
+        .catch(error=>{
+            console.error(error);
+        })
     }
 
     return (

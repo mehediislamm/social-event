@@ -3,6 +3,8 @@ import Root from "../root/Root";
 import Home from "../component/home/Home";
 import Login from "../component/login/Login";
 import Register from "../component/Register";
+import Card from "../component/cards/card";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -14,6 +16,12 @@ const router = createBrowserRouter([
                 path:'/',
                 element:<Home></Home>,
                 loader:()=> fetch('/data.json')
+            },
+            {
+                path:'/card/:id',
+                element:<PrivateRoute><Card></Card></PrivateRoute>,
+                loader:()=>fetch('/data.json')
+                
             },
             {
                 path:'/login',
