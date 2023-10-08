@@ -6,6 +6,7 @@ import Register from "../component/Register";
 import Card from "../component/cards/card";
 import PrivateRoute from "./PrivateRoute";
 import Service from "../component/service/Service";
+import About from "../component/about/About";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
                 element:<PrivateRoute><Card></Card></PrivateRoute>,
                 loader:()=>fetch('/data.json')
                 
+            },
+            {
+                path:'/about',
+                element:<PrivateRoute><About></About></PrivateRoute>
             },
             {
                 path:'/servic',

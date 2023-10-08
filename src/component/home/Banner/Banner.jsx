@@ -9,7 +9,7 @@ const Banner = () => {
                 <img src={slider2} className="w-full" />
                 <div className=' absolute top-[45%] lg:mx-64 md:mx-20'>
                     <p className=' text-sm mx-20 lg:text-xl  md:text-xl font-medium text-yellow-400 md:mx-32'>Birthday Event Management Specialists</p>
-                    <h1 className=' text-lg mx-10 md:mx-5 md:text-3xl lg:text-3xl text-white lg:font-bold md:font-bold' >CELEBRATE YOUR EVENTSTHAT LASTS LONGER</h1>
+                    <h1 className=' text-lg mx-10 md:mx-4 md:text-3xl lg:text-3xl text-white lg:font-bold md:font-bold' >CELEBRATE YOUR EVENTSTHAT LASTS LONGER</h1>
                 </div>
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" className="btn btn-circle">❮</a>
