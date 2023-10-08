@@ -4,7 +4,7 @@ import Banner from "./Banner/Banner";
 import Cards from "../cards/Cards";
 import SectionOne from "./sectionOne/SectionOne";
 import SectionTwo from "./SectionTwo/SectionTwo";
-import Footer from "../footer/Footer";
+
 
 
 
@@ -29,7 +29,7 @@ const Home = () => {
 
             <SectionOne></SectionOne>
             <SectionTwo></SectionTwo>
-            <Footer></Footer>
+            
 
         </div>
     );
