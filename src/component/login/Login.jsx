@@ -29,6 +29,7 @@ const Login = () => {
         console.log(email, password);
         setLoginError('');
         setSuccess('');
+        e.target.reset();
 
         signIn(email, password)
             .then(result => {
