@@ -1,10 +1,13 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../AuthProvider";
 
 
 const Register = () => {
     const { createUser } = useContext(AuthContext)
+    const [registerError, setRegisterError] = useState('');
+    const [success, setSuccess] = useState('');
+
 
     const handleRegister = e => {
         e.preventDefault();
@@ -17,12 +20,29 @@ const Register = () => {
 
         console.log(name, photo, email, password);
 
+        setRegisterError('');
+        setSuccess('');
+
+        if(password.length<6){
+            setRegisterError('password should be at least 6 characters or longer');
+            return;
+        }
+        else if (!/^(?=.*[A-Z])(?=.*[!@#$%^&*()_+~\-=/\\{}\[\]|;:'",.<>?`]).{6,}$/.test(password)) {
+            setRegisterError('The password must be 6 characters. There must be one capital letter in English.  There should be special markings.');
+            return;
+          }
+          
+
+
+
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                setSuccess('Create Created Successfull')
             })
             .catch(error => {
                 console.error(error);
+                setRegisterError(error.message);
             })
     }
     return (
@@ -52,6 +72,7 @@ const Register = () => {
                         <span className="label-text">Password</span>
                     </label>
                     <input type="password" name="password" placeholder="password" className="input input-bordered" required />
+                    
                     <label className="label">
                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                     </label>
@@ -60,6 +81,15 @@ const Register = () => {
                     <button className="btn btn-primary">Register</button>
                 </div>
             </form>
+            <div className="flex justify-center" >
+                {
+                    registerError && <p className=" text-red-700">{registerError}</p>
+                }
+                {
+                    success && <p className=" text-green-600">{success}</p>
+                }
+            </div>
+
             <p className="text-xl text-center pt-3 pb-5">Already account <Link to={'/login'} className=" text-blue-600 text-xl font-bold">Login</Link></p>
         </div>
     );

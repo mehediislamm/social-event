@@ -30,7 +30,7 @@ const Service = () => {
             </div>
             <div className='py-16'>
                 <div className="avatar">
-                    <div className="w-32 rounded">
+                    <div className="md:w-32 lg:w-40 rounded">
                         <img src={balloon1} />
                     </div>
                 </div>

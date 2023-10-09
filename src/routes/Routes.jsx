@@ -7,12 +7,14 @@ import Card from "../component/cards/card";
 import PrivateRoute from "./PrivateRoute";
 import Service from "../component/service/Service";
 import About from "../component/about/About";
+import Error from "../component/error/error";
 
 
 const router = createBrowserRouter([
     {
         path:'/',
         element:<Root></Root>,
+        errorElement:<Error></Error>,
         children:[
             {
                 path:'/',

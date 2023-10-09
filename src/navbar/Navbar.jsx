@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     {
-                        user ? user.photoURL :<img className=" rounded-full mr-2" src={userDefoultPic} alt="" />
+                        user ? <img className=" rounded-full" src={user.photoURL}alt="" /> :<img className=" rounded-full mr-2" src={userDefoultPic} alt="" />
                     }
                     
                 </label>
